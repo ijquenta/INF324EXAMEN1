@@ -1,0 +1,149 @@
+*{
+	font-family: century gothic;
+	text-align: center;
+	margin:0px;
+	padding:0px
+}
+.cabecera {
+	margin: auto;
+    width: 100%;
+    height: 200px;
+    background: #1F487E;
+}
+div#general{
+	margin: auto;
+	margin-top: 5px;
+	width: 100%;
+	height: 800px;
+	background-color: #FB3640;
+}
+div#menu{
+    float: left;
+	width: 400px;
+	height: 800px;
+	background-color: #FFFBBD;
+}
+
+div#body{
+	float: left;
+	margin-top: 0px;
+	width: 1500px;
+	height: 800px;
+	background-color: #FB3640;
+}
+h1, h2 {
+    color: #FFFBBD;
+}
+
+p {
+    color: #FFFBBD;
+}
+a.otro {
+    background-color:#247BA0;
+    color:#fff;
+    padding: 8px;
+    text-decoration:none;
+}
+ul.circulo {
+    list-style-type: none;
+}
+li a {
+    display: block;
+    height: 12px;
+    text-decoration: none;
+    padding: 3;
+    color:#fff;
+}
+li a:hover {
+    background: #FB3640;
+}
+.elegido{
+    background: #FB3640;
+    color:#fff;
+    padding: 8px;
+    text-decoration:none;
+}
+table {
+    float: inline-start;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    /*width: 100%;*/
+    width: 200px;
+}
+th,td {
+    padding: 20px;
+}
+body {
+    background-color: #605F5E;
+    font-family: Arial;
+}
+
+table {
+    float: right;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    /*width: 100%;*/
+    width: 800px;
+}
+
+th,td {
+    padding: 20px;
+}
+
+thead {
+    background-color: #FB3640;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tr:hover td {
+    background-color: #247BA0;
+    color: white;
+}
+.submitbtn {
+    text-transform: uppercase;
+    background-color: #1D3461;
+    border-radius: 0;
+    font-weight: bold;
+    width: 90px;
+    border: none;
+    height: 30px;
+    color: #fff;
+  }
+  .submitbtn:hover {
+    color: #c3e3fc;
+  }
+  .submitbtn:hover + span.form-arrow::before {
+    border: 2px solid #c3e3fc;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+ .fcc-btn {
+  background-color: #247BA0;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+.fcc-btn:hover {
+    background-color: #FB3640;
+}
+div#bloque{
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div#bloquenotas{
+    width: 1270px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}

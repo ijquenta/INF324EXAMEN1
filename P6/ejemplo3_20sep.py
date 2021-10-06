@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct  4 11:07:10 2021
-
-@author: Ivan QV
-"""
 
 from tkinter import Tk, Label, Entry, ttk, Canvas, Frame, Button #importar
 import psycopg2 as pc2
